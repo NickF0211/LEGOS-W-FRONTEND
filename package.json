@@ -1,0 +1,75 @@
+{
+    "name": "legos",
+    "version": "1.0.0",
+    "private": true,
+    "engines": {
+        "node": "18.x",
+        "npm": "8.x"
+    },
+    "dependencies": {
+        "@chakra-ui/icons": "^2.0.0",
+        "@chakra-ui/react": "^2.0.2",
+        "@codemirror/lang-markdown": "^6.0.0",
+        "@codemirror/lang-python": "^6.0.0",
+        "@codemirror/language-data": "^6.1.0",
+        "@codemirror/theme-one-dark": "^6.0.0",
+        "@lezer/highlight": "^1.0.0",
+        "@monaco-editor/react": "^4.4.5",
+        "@uiw/codemirror-theme-duotone": "^4.9.4",
+        "@uiw/codemirror-theme-eclipse": "^4.9.4",
+        "@uiw/codemirror-theme-okaidia": "^4.9.4",
+        "@uiw/codemirror-theme-sublime": "^4.9.4",
+        "@uiw/codemirror-themes": "^4.9.4",
+        "@uiw/react-codemirror": "^4.9.4",
+        "axios": "^0.27.2",
+        "buffer": "^6.0.3",
+        "monaco-themes": "^0.4.2",
+        "next": "^12.1.6",
+        "react": "^18.1.0",
+        "react-dom": "^18.1.0",
+        "react-router-dom": "^6.3.0",
+        "react-scripts": "^5.0.1",
+        "typescript": "^4.9.5",
+        "serve": "^14.0.1",
+        "styled-jsx": "^5.0.2",
+        "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject",
+        "postinstall": "npm run build",
+        "serve": "serve -s build"
+    },
+    "betterScripts": {
+        "start": {
+            "command": "react-scripts start",
+            "env": {
+                "GENERATE_SOURCEMAP": false
+            }
+        },
+        "build": {
+            "command": "react-scripts build",
+            "env": {
+                "GENERATE_SOURCEMAP": false
+            }
+        }
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "-": "^0.0.1",
+        "better-npm-run": "^0.1.1"
+    }
+}
